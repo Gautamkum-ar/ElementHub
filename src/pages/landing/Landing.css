@@ -1,0 +1,66 @@
+
+
+.landing__container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 1rem;
+    flex-direction: column;
+
+}
+
+.landing__container .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2rem;
+    max-width: 60%;
+    font-weight: 600;
+    line-height: 3.2rem;
+    margin:0 auto;
+    color: #333;
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.landing__container  .intro__details   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.landing__container .buttons{
+    display: flex;
+    width: 40%;
+    margin:1rem auto;
+}
+
+.landing__container .buttons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    background:var(---btn-background) ;
+    border-radius: 5px;
+    color: var(---btn-color);
+    cursor: pointer;
+    transition:0.8s all ;
+    text-decoration: none;
+
+}
+
+.landing__container .buttons button:hover{
+    box-shadow: 1px 1px 20px #ddacac,
+    2px 2px 30px #f4a3a3;
+    
+}
+ 
