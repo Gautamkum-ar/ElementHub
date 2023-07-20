@@ -1,10 +1,20 @@
-import { Layout } from "../../component/layout/Layout";
-import "../home/Home.css";
+import { Link } from "react-router-dom";
 
+import "../home/Home.css";
 export const Home = () => {
   return (
-    <div className="home__container">
-      <Layout children={"hello"} />
+    <div className="landing__container">
+      <h1 className="intro">
+        Rapidly build modern websites without ever leaving your HTML.
+      </h1>
+      <p className="intro__details">
+        A utility-first CSS framework packed with classes like flex, pt-4,
+        text-center and rotate-90 that can be composed to build any design,
+        directly in your markup.
+      </p>
+      <div className="buttons">
+        <Link to="/installation">Get Started</Link>
+      </div>
     </div>
   );
 };

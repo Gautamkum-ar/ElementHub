@@ -1,0 +1,27 @@
+
+
+.installation__container{
+    display: flex;
+   
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.installation__container p{
+    margin: auto;
+    width: 90%;
+}
+.installation__container h3{
+    margin: auto;
+    width: 90%;
+}
+
+.code{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
