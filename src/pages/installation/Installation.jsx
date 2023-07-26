@@ -1,8 +1,8 @@
 import { Installation } from "../../component/installation/Installation";
 import { Layout } from "../../component/layout/Layout";
-import "../components/Components.css";
+import "../installation/Installation.css";
 
-export const Components = () => {
+export const Getstarted = () => {
   return (
     <div className="home__container">
       <Layout children={<Installation />} />

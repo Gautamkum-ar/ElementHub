@@ -2,7 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Navabr } from "./component/Navbar/Navbar";
 import { Home } from "./pages/home/Home";
-import { Components } from "./pages/components/Components";
+import { Getstarted } from "./pages/installation/Installation";
+import { Buttons } from "./pages/button/Buttons";
+import { Cards } from "./pages/cards/Cards";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <Navabr />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/installation" element={<Components />} />
+        <Route path="/installation" element={<Getstarted />} />
+        <Route path="/button" element={<Buttons />} />
+        <Route path="/card" element={<Cards />} />
       </Routes>
     </div>
   );

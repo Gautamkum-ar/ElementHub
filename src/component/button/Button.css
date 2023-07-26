@@ -1,0 +1,27 @@
+
+
+.button__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+    
+.button__container h1{
+    width: 90%;
+    margin: auto;
+    font-size: 1.7rem;
+
+}
+.button__container p{
+
+    display: flex;
+  
+    width: 90%;
+    margin:1rem auto;
+}
+
+.button__container p b{
+    display: flex;
+    height: 2rem;
+    margin: 0 0.3rem;
+}
