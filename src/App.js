@@ -7,6 +7,7 @@ import { Buttons } from "./pages/button/Buttons";
 import { Cards } from "./pages/cards/Cards";
 import { Avatar } from "./pages/avatar/Avatar";
 import { Loaders } from "./pages/loaders/Loaders";
+import { Modal } from "./pages/modal/Modal";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/card" element={<Cards />} />
         <Route path="/avatar" element={<Avatar />} />
         <Route path="/loader" element={<Loaders />} />
+        <Route path="/modal" element={<Modal />} />
       </Routes>
     </div>
   );

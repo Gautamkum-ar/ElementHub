@@ -1,0 +1,35 @@
+
+
+.modals__main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.modals__main h1{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 2rem;
+    font-size: var(---font-size-head);
+}
+
+.modals__main p,h3{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin:0.5rem auto;
+}
+
+.show__modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 3rem;
+    min-height: 15rem;
+  box-shadow: 1px 1px 10px #999;
+}
