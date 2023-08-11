@@ -25,7 +25,6 @@
 }
 .left__sec h1{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     width: 100%;
     border-bottom: 1px solid var(---btn-background);
@@ -35,7 +34,6 @@
 }
 .left__sec .compo__list h3{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     width: 100%;
     border-bottom: 1px solid var(---btn-background);

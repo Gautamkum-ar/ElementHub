@@ -50,6 +50,7 @@ export const Button = () => {
       //for close button
       <button class="btn btn-close">Close</button>`}
       />
+      <h1>Outline Button</h1>
 
       <OutlineButton />
 

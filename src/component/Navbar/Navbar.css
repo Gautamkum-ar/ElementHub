@@ -19,8 +19,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;
     height: 100%;
+    cursor: pointer;
     
 }
 .logo h1{
@@ -44,6 +44,10 @@
     gap: 1rem;
     list-style: none;
     color: #666;
+}
+
+.link ul li{
+    cursor: pointer;
 }
 
 

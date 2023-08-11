@@ -8,6 +8,8 @@
     min-height: 10rem;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    box-shadow: 1px 1px 10px #999;
 }
 
 .outline-btns{
@@ -20,5 +22,7 @@
     margin-top: 2rem;
     padding: 1rem;
     min-height: 10rem;
+    margin: auto;
+    box-shadow: 1px 1px 10px #999;
 
 }

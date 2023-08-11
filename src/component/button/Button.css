@@ -9,7 +9,7 @@
 .button__container h1{
     width: 90%;
     margin: auto;
-    font-size: 1.7rem;
+    font-size: var(---font-size-head);
 
 }
 .button__container p{

@@ -5,6 +5,8 @@ import { Home } from "./pages/home/Home";
 import { Getstarted } from "./pages/installation/Installation";
 import { Buttons } from "./pages/button/Buttons";
 import { Cards } from "./pages/cards/Cards";
+import { Avatar } from "./pages/avatar/Avatar";
+import { Loaders } from "./pages/loaders/Loaders";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/installation" element={<Getstarted />} />
         <Route path="/button" element={<Buttons />} />
         <Route path="/card" element={<Cards />} />
+        <Route path="/avatar" element={<Avatar />} />
+        <Route path="/loader" element={<Loaders />} />
       </Routes>
     </div>
   );
