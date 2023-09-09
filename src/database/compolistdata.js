@@ -34,4 +34,19 @@ export const compoList = [
     name: "Heading",
     path: "/heading",
   },
+  {
+    id: 8,
+    name: "Image",
+    path: "/images",
+  },
+  {
+    id: 9,
+    name: "Texts",
+    path: "/texts",
+  },
+  {
+    id: 10,
+    name: "Alert",
+    path: "/alerts",
+  },
 ];

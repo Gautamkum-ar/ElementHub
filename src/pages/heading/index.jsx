@@ -20,7 +20,7 @@ export const Headings = () => {
         <p>This is the default Headings from our component library</p>
         <Codeshare
           code={`< -- For Default Heading Component -->
-          <h1 class="master">Hello World</h1>
+          <h1 className="master">Hello World</h1>
             <h2 className="submaster">Hello World</h2>
             <h3 className="miniheading">Hello World</h3>
             <h4 className="subminiheading">Hello World</h4>
@@ -33,23 +33,23 @@ export const Headings = () => {
         <div className="showcase">
           {/* For Different Color Texts  */}
           <div className="head">
-            <h1 class="head-cyan">Hello World</h1>
-            <h2 class="head-red">Hello World</h2>
-            <h3 class="head-green">Hello World</h3>
-            <h4 class="head-yellow">Hello World</h4>
-            <h5 class="head-gray">Hello World</h5>
-            <h6 class="head-blue">Hello World</h6>
+            <h1 className="head-cyan">Hello World</h1>
+            <h2 className="head-red">Hello World</h2>
+            <h3 className="head-green">Hello World</h3>
+            <h4 className="head-yellow">Hello World</h4>
+            <h5 className="head-gray">Hello World</h5>
+            <h6 className="head-blue">Hello World</h6>
           </div>
         </div>
         <p>To achive above headings you have to follow the below code.</p>
         <Codeshare
           code={`// for different color heading 
-          <h1 class="head-cyan">Hello World</h1>
-          <h2 class="head-red">Hello World</h2>
-          <h3 class="head-green">Hello World</h3>
-          <h4 class="head-yellow">Hello World</h4>
-          <h5 class="head-gray">Hello World</h5>
-          <h6 class="head-blue">Hello World</h6>`}
+          <h1 className="head-cyan">Hello World</h1>
+          <h2 className="head-red">Hello World</h2>
+          <h3 className="head-green">Hello World</h3>
+          <h4 className="head-yellow">Hello World</h4>
+          <h5 className="head-gray">Hello World</h5>
+          <h6 className="head-blue">Hello World</h6>`}
         />
       </div>
     </Layout>

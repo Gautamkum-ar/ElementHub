@@ -48,6 +48,10 @@ font-family: 'Mukta', sans-serif;
   align-items: center;
   display: flex;
 }
+.img{
+  width: 10rem;
+  height: 10rem;
+}
 .landing__container .intro {
   display: flex;
   justify-content: center;

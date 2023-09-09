@@ -8,10 +8,13 @@ import {
   Getstarted,
   Headings,
   Home,
+  Images,
   Loaders,
   Modal,
+  Texts,
 } from "./pages";
 import { Navabr } from "./component";
+import { Alerts } from "./pages/alert";
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
         <Route path="/modal" element={<Modal />} />
         <Route path="/badge" element={<Badge />} />
         <Route path="/heading" element={<Headings />} />
+        <Route path="/images" element={<Images />} />
+        <Route path="/texts" element={<Texts />} />
+        <Route path="/alerts" element={<Alerts />} />
       </Routes>
     </div>
   );
