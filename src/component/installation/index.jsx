@@ -1,4 +1,4 @@
-import { Codeshare } from "../codeshare/Codeshare";
+import { Codeshare } from "../codeshare";
 import "../installation/Installation.css";
 
 export const Installation = () => {

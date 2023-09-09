@@ -26,7 +26,12 @@ export const compoList = [
   },
   {
     id: 6,
-    name: "Input",
-    path: "/input",
+    name: "Badge",
+    path: "/badge",
+  },
+  {
+    id: 7,
+    name: "Heading",
+    path: "/heading",
   },
 ];

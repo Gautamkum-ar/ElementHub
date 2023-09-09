@@ -53,6 +53,28 @@
     box-shadow: 1px 1px 10px #9c0404;
  }
 
+ .link-btn{
+   color: #fff;
+   background: #144663;
+ }
+ .link-btn a{
+   color: #fff;
+ }
+
+
+ .icon-btn{
+   display: flex;
+   gap: 0.3rem;
+   color: #fff;
+   background: #144663;
+ }
+ .float-btn{
+   border-radius: 50%;
+   height: 3rem;
+   width: 3rem;
+   color: #fff;
+   background: #2299de;
+ }
 
  .outline-btn{
     display: flex;
@@ -157,46 +179,98 @@
     width: 100%;
  }
 
- .img-card{
+ .dismis-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 1rem;
+    position: relative;
+ }
+.dismis-card .dismis{
+   position: absolute;
+   top: 0.4rem;
+   left: 1rem;
+   color: #890d0d;
+   font-size: 1.2rem;
+   font-weight: 800;
+}
+ 
+.shadow-card{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 1rem;
+   width: 15rem;
+   height: 15rem;
+   border-radius: 5px;
+   background: #fff;
+   margin-bottom: 1rem;
+   box-shadow: 10px 10px 30px #999;
+}
+.horizontal-card{
+   width: 25rem;
+   height: 15rem;
+}
+.vertical-card{
+   height: 20rem;
+   width: 15rem;
+}
+ .dismis-card p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ }
+
+ .text-overlay-card{
     display: flex;
     flex-direction: column;
-    width: 20rem;
-    height: 22rem;
+    width: 25rem;
+    height: 15rem;
     margin:1rem auto;
     box-shadow: 2px 2px 12px #999;
     border-radius: 6px;
     overflow: hidden;
     background: #fff;
+    position: relative;
 
  }
 
- .img-card img{
+ .text-overlay-card img{
     width: 100%;
-    height: 60%;
+    height: 100%;
+
 
  }
 
- .img-card .details{
+ .text-overlay-card .details{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 1rem;
-    color: #444;
+    position: absolute;
+    bottom: 0;
+    color: #999;
  }
 
- .img-card .details h3{
+ .text-overlay-card .details h3{
     width: 90%;
-
-    margin: 0.5rem auto;
+    margin: 0.1rem auto;
  }
- .img-card .details p{
+ .text-overlay-card .details p{
     margin: 0 auto;
     width: 90%;
  }
 
- /* Ecommerce card */
+ /* badge card */
 
- .ecommerce-card{
+ .badge-card{
     display: flex;
     flex-direction: column;
     width: 15rem;
@@ -205,11 +279,22 @@
     border-radius: 10px ;
     overflow: hidden;
     background: #fff;
-
+position: relative;
     margin:1rem auto;
 }
 
-.ecommerce-card .img-sec{
+.badge-card .offer{
+   position: absolute;
+   top: 0.1rem;
+   left: 0;
+   background: red;
+   color: #fff;
+   font-size: small;
+   padding: 0.1rem .3rem;
+   border-radius:0 10px 10px 0;
+}
+
+.badge-card .img-sec{
     display: flex;
     background: #fff;
     width: 100%;
@@ -221,18 +306,18 @@
 
  }
 
- .ecommerce-card .img-sec img{
+ .badge-card .img-sec img{
     width: 80%;
     height: 90%;
  }
 
- .ecommerce-card .product-details{
+ .badge-card .product-details{
     display: flex;
     flex-direction: column;
 
  }
 
- .ecommerce-card .product-details .title{
+ .badge-card .product-details .title{
     margin: 0.5rem auto;
     width: 90%;
     justify-content: center;
@@ -240,7 +325,7 @@
 
  }
 
- .ecommerce-card .product-details .price{
+ .badge-card .product-details .price{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,7 +334,7 @@
     font-size: 1rem;
  }
 
- .ecommerce-card .product-details .price span{
+ .badge-card .product-details .price span{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,7 +344,7 @@
     color: red;
  }
 
- .ecommerce-card .product-details .add-to-cart{
+ .badge-card .product-details .add-to-cart{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -273,7 +358,7 @@
     transition: 0.7s all;
  }
 
- .ecommerce-card .product-details .add-to-cart:hover{
+ .badge-card .product-details .add-to-cart:hover{
 background: #9f0808bb; 
      color: #fff;
  }
@@ -486,4 +571,95 @@ bottom: 0;
    flex-direction: column;
    width: 100%;
    height: 100%;
+}
+
+
+/* badge */
+
+.badge{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 5rem;
+   height: 5rem;
+   border-radius: 50%;
+   position: relative;
+   background: #999;
+
+
+}
+.badge .avatar{
+   display: flex;
+   width: 100%;
+   height: 100%;
+   border-radius: 100%;
+}
+.badge .online{
+   position: absolute;
+   bottom:0.2rem;
+   right: 0.2rem;
+   background: #08ff35;
+   border-radius: 50%;
+   height: 1rem ;
+   width: 1rem;
+}
+.badge .offline{
+   position: absolute;
+   bottom:0.2rem;
+   right: 0.2rem;
+   background: #272a28;
+   border-radius: 50%;
+   height: 1rem ;
+   width: 1rem;
+}
+.badge .dnd{
+   position: absolute;
+   bottom:0.2rem;
+   right: 0.2rem;
+   background: #e40f0f;
+   border-radius: 50%;
+   height: 1rem ;
+   width: 1rem;
+}
+.badge .number{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   font-size: .8rem;
+   top:0;
+   right: -0.3rem;
+   background: #e40f0f;
+   border-radius: 50%;
+   height: 1.5rem ;
+   width: 1.5rem;
+   color: #fff;
+
+}
+
+/* headings */
+
+.master,.submaster,.miniheading{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.head-green{
+   color: #05801b;
+}
+.head-cyan{
+   color:#69c2ff;
+}
+.head-red{
+   color :#cc0000;
+}
+.head-yellow{
+   color: yellow;    
+}
+.head-gray{
+   color: gray;    
+}
+.head-blue{
+   color: blue;    
 }

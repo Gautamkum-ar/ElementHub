@@ -7,8 +7,6 @@ export const Codeshare = ({ code }) => {
         text={code}
         theme={dracula}
         language={"HTML"}
-        showLineNumbers={false}
-        codeBlock
         customStyle={{
           width: "90%",
           margin: "1rem auto",

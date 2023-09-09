@@ -7,8 +7,6 @@ import { LiaGreaterThanSolid } from "react-icons/lia";
 export const Layout = ({ children }) => {
   const breadcrumbs = useReactRouterBreadcrumbs();
 
-  console.log(breadcrumbs);
-
   const iActive = ({ isActive }) => ({
     background: isActive ? "#086469" : "",
     color: isActive ? "#ffff" : "",
